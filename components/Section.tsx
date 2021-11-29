@@ -8,7 +8,7 @@ const StyledDiv = chakra(motion.div, {
 });
 
 type SectionProps = {
-  delay: number;
+  delay?: number;
 };
 
 const Section: React.FC<SectionProps> = ({ children, delay = 0 }) => {
